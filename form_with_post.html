@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <form action="#" method="post">
+            <fieldset>
+                <legend> Personal Details</legend>
+            <label for="first_name ">FirstName:</label>
+            <input type="text" id="first_name" name="first_name" placeholder="Enter Your FirstName">
+    
+            <br> 
+    
+            <label for="last_name ">LastName:</label>
+            <input type="text" id="last_name" name="last_name" placeholder="Enter Your LastName">
+            <br>
+    
+            <label for="email ">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter Your email">
+    
+            <br>
+    
+            <label for="password">PassWord:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password">
+            <br>
+        </fieldset><br>
+            <fieldset>
+                <legend>Interested Courses</legend>
+            <label for="BIT">BIT</label>
+            <input type="radio" name="courses" id="BIT">
+            
+            <br> 
+    
+            <label for="BCA">BCA</label>
+            <input type="radio" name="courses" id="BCA">
+            <br> 
+    
+            <label for="BCS.IT">BCS.IT</label>
+            <input type="radio" name="courses" id="BCS.IT">
+            <br> 
+            <label for="Course"> Courses</label>    
+             <!-- another approach for courses in a html. -->
+            <select name="courses" id="courses" multiple>
+                <option value=""> Please choose one option.</option>
+                <option value="bit"> BIT</option>
+                <option value="bca"> BCA</option>
+                <option value="mcs"> MCS</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend> Picture</legend>
+            <label for="profile_picture">Profile Picture:</label>
+            <input type="file" name="profile_picture" id="profile_picture">
+            <br> </br>
+        </fieldset>
+            <label for="age">Age</label>
+            <input type="range" name="age" id="age" min="5" max="20">
+            <br></br>
+    
+    
+            <fieldset>
+                <legend> Feedback</legend>
+            <label for="Text_Area">Give your FeedBack</label>
+            <input type="textarea" name="Text_Area" id="Text_Area">
+            <br>
+        </fieldset>
+       
+          
+<br>
+
+
+<label for="essay">Essay</label>
+        <textarea name="essay" id="essay" rows="10" cols="100" placeholder="Type here"></textarea>
+
+<input type="Submit" value="Submit">
+<br>
+
+    
+    
+    </body>
+</html>
